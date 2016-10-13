@@ -1,0 +1,52 @@
+.speaker-item {
+    margin: 0 0 10px 0;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    width: 100%;
+    p {
+      font-size: 15px;
+      margin-top: 0;
+      line-height: 1.5;
+    }
+}
+
+.speaker-th {
+    float: left;
+    display: inline;
+    @media screen and (min-width: $large){
+      width: 90px;
+    }
+}
+
+.speaker-th img {
+    margin: 5px 0 0 5px;
+}
+
+.speaker-info {
+    float: left;
+    display: inline;
+    @media screen and (min-width: $large){
+      width: 520px;
+    }
+}
+
+.speaker-info p.tl {
+    font-size: 22px;
+    margin: 0 10px 10px 0;
+}
+
+.speaker-info p.name {
+    font-size: 17px;
+    margin: -12px 0 10px 0;
+}
+
+.speaker-info a {
+  font-style: italic;
+}
+
+.speaker-item {
+  img {
+    max-width: 73px;
+  }
+}

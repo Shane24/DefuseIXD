@@ -1,0 +1,39 @@
+
+@media screen and (min-width: $large){
+  .bg_image {
+      background-image: url(../images/2016-bg.png);
+      background-repeat: no-repeat;
+      width: 2265px;
+      height: 1507px;
+      background-size: 90%;
+      position: absolute;
+      z-index: -1;
+      top: -270px;
+      left: -1045px;
+  }
+
+  .bg_image2 {
+      background-image: url(../images/2016-bg2.png);
+      background-repeat: no-repeat;
+      width: 2265px;
+      height: 1507px;
+      position: absolute;
+      z-index: -1;
+      top: 270px;
+      right: -1160px;
+  }
+
+  .bg_image3 {
+      background-image: url(../images/2016-bg3.png);
+      background-repeat: no-repeat;
+      width: 1221px;
+      height: 859px;
+      position: absolute;
+      z-index: -1;
+      top: -470px;
+      right: -700px;
+      background-size: 75%;
+      z-index: -2;
+  }
+
+}
