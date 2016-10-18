@@ -1,1 +1,4 @@
-console.log('\'Allo \'Allo!');
+jQuery('#toggle').on('click', function() {
+  jQuery('#toggle').toggleClass('on');
+});
+
