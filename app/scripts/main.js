@@ -1,4 +1,5 @@
-jQuery('#toggle').on('click', function() {
-  jQuery('#toggle').toggleClass('on');
+$(document).ready(function () {
+  $('#toggle').on('click', function() {
+    $('#toggle').toggleClass('on');
+  });
 });
-
